@@ -43,6 +43,8 @@
 		06F889CE25652B9100DE0D66 /* iOSSourceCodeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSSourceCodeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06F889D225652B9100DE0D66 /* iOSSourceCodeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSSourceCodeDemoUITests.m; sourceTree = "<group>"; };
 		06F889D425652B9100DE0D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06F889DE25652BC300DE0D66 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		06F889DF25652BC300DE0D66 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		06F889B525652B8C00DE0D66 /* iOSSourceCodeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				06F889DD25652B9B00DE0D66 /* sourceCodeRead */,
 				06F889B625652B8C00DE0D66 /* AppDelegate.h */,
 				06F889B725652B8C00DE0D66 /* AppDelegate.m */,
 				06F889B925652B8C00DE0D66 /* SceneDelegate.h */,
@@ -106,6 +109,15 @@
 				06F889D425652B9100DE0D66 /* Info.plist */,
 			);
 			path = iOSSourceCodeDemoUITests;
+			sourceTree = "<group>";
+		};
+		06F889DD25652B9B00DE0D66 /* sourceCodeRead */ = {
+			isa = PBXGroup;
+			children = (
+				06F889DE25652BC300DE0D66 /* SDWebImageManager.m */,
+				06F889DF25652BC300DE0D66 /* UIImageView+WebCache.m */,
+			);
+			path = sourceCodeRead;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
